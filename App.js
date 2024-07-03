@@ -17,7 +17,6 @@ const App = () => {
 
   const addNote = (title, desc) => {
     const id = noteList.length > 0 ? noteList[noteList.length - 1].id + 1 : 1;
-    // console.log('ID:', id);
 
     setNoteList([
       ...noteList,
